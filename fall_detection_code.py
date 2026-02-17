@@ -5,8 +5,8 @@ import numpy as np
 import os
 import cv2
 
-account_sid = 'ACc6ccdbcf4ced2e373e56ff0976402f84'
-auth_token = 'd8f2b097328038c41908ca9e7a0c1430'
+account_sid = 
+auth_token = 
 client = Client(account_sid, auth_token)
 
 #print(message.sid)
@@ -132,3 +132,4 @@ else:
             cap.release()
             cv2.destroyAllWindows()
             print(f"Processamento concluído.")
+
