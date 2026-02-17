@@ -13,9 +13,9 @@ client = Client(account_sid, auth_token)
 # Crie o cliente da Twilio
 client = Client(account_sid, auth_token)
 # Número de telefone do Twilio para WhatsApp
-twilio_whatsapp_number = 'whatsapp:+14155238886'
+twilio_whatsapp_number = 
 # Número de telefone de destino (deve ser verificado no sandbox)
-to_whatsapp_number = 'whatsapp:+5519993362578'
+to_whatsapp_number = 
 #mensagem passada
 message_body = 'ACIDENTE INDENTIFICADO. \n\n POR FAVOR VERIFIQUE SUAS CAMERAS IMEDIATAMENTE!\n\n LIGUE PARA UMA AMBULÂNCIA SE NECESSÁRIO (192)'
 
@@ -132,4 +132,5 @@ else:
             cap.release()
             cv2.destroyAllWindows()
             print(f"Processamento concluído.")
+
 
